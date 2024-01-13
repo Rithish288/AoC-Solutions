@@ -1,9 +1,9 @@
-#include "Trebuchet.h"
 #include "utils.h"
 #include <fstream>
 #include <iostream>
 #include <regex>
 #include <string>
+#include "Trebuchet.h"
 
 std::pair<const char, const char> Trebuchet::findDigitsA(const std::string& word) {
     char firstDigit = '\t';

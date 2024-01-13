@@ -21,11 +21,3 @@ public:
     unsigned int sumDigitsA();
     unsigned int sumDigitsB();
 };
-
-class CubeConundrum {
-    std::string filename;
-    unsigned int getGameId(const std::string& line);
-public:
-    CubeConundrum(const std::string& filename) : filename(filename) {};
-    unsigned int getValidIdSum();
-};
